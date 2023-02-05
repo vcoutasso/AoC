@@ -27,7 +27,6 @@ wrapRibbon = map ((* 2) . sum . take 2 . sort)
 bowRibbon :: [[Int]] -> [Int]
 bowRibbon = map product
 
-
 -- Input parsing
 
 parseInput :: String -> [[Int]]
